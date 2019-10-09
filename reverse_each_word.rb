@@ -8,6 +8,7 @@ def reverse_each_word(sentence)
 end 
 
 def 
+end 
 
 =begin
 def reverse_each_word_with_each(string)
