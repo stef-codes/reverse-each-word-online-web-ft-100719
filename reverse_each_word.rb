@@ -1,12 +1,12 @@
 def reverse_each_word(sentence)
   not_reverse = sentence.split(" ")
   reverse_sentence = []
-  sentence.each do |word|
+  not_reverse.each do |word|
     reverse_sentence << word.reverse
   end
   reverse_sentence.join(" ")
 end 
-
+=begin
 def reverse_each_word_with_each(string)
   # returns that same sentence with each word reversed in place.
   #First solve it using .each Then write the same method using .collect to see the difference.
@@ -19,3 +19,4 @@ def reverse_each_word_with_each(string)
   end
   return_array.join(" ")
 end
+=end
