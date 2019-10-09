@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   not_reverse = sentence.split(" ")
   reverse_sentence = []
-  not_reverse.each do |word|
+  not_reverse.collect do |word|
     reverse_sentence << word.reverse
   end
   reverse_sentence.join(" ")
